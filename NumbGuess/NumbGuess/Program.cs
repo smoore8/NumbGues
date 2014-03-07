@@ -14,7 +14,7 @@ namespace NumbGuess
 
             while (true)
             {
-                guess = high/=;
+                guess = high + low / 2;
                 Console.WriteLine("Is your guess {0}? h,l,e ", guess);
 
                 string input = Console.ReadLine();
