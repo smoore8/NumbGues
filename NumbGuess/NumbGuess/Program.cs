@@ -27,7 +27,7 @@ namespace NumbGuess
                 }
                 else if (input == "l")
                 {
-                    high = guess + 1;
+                    high = guess - 1;
                 }
 
 
